@@ -5,3 +5,10 @@
 <p><%= @portfolio_item.body %></p>
 
 <hr>
+<h5>Technologies:</h5>
+<% @portfolio_item.technologies.each do |technology| %>
+  <p>
+    <%= technology.name %>
+  </p>
+<% end %>
+<hr>

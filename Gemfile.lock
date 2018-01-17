@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/MarekUrzon/devcamp_view_tool
+  revision: f5fa0d41155d7a9b79d8dfbc8038f3a234384c63
+  specs:
+    devcamp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +211,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  devcamp_view_tool!
   devise (~> 4.3)
   friendly_id
   jbuilder (~> 2.5)
@@ -224,4 +231,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
